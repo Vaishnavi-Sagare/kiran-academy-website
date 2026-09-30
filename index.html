@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kiran Academy - IT training and placement focused courses.">
+  <title>The Kiran Academy | IT Training & Placement</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announcement">
+    <div>★ New: Full-Day Master Programs — Python & Java</div>
+    <a href="#courses">Explore Programs →</a>
+    <button class="announcement-close" aria-label="Close">×</button>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="logo" href="#top" aria-label="Kiran Academy home">
+        <span class="logo-mark">K</span>
+        <span><b>Kiran</b><small>ACADEMY</small></span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#courses">Courses</a>
+        <a href="#placements">Placements</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#success">Success Stories</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-dark nav-cta" href="#demo">Book Free Demo</a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+
+    <div class="mobile-menu">
+      <a href="#courses">Courses</a>
+      <a href="#placements">Placements</a>
+      <a href="#jobs">Jobs</a>
+      <a href="#success">Success Stories</a>
+      <a href="#locations">Locations</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-dark" href="#demo">Book Free Demo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">#1 IT TRAINING INSTITUTE IN PUNE</span>
+          <h1>Land Your Dream<br><span>Software Job</span><br>in 4–6 Months</h1>
+          <p class="hero-text">Live classes with working industry trainers. Real projects for your portfolio. Placement support until you're hired — not just until your course ends.</p>
+
+          <div class="hero-points">
+            <div>✓ <span>Small batches — personal trainer attention</span></div>
+            <div>✓ <span>Industry tools and practical projects</span></div>
+            <div>✓ <span>Mock interviews + resume preparation</span></div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#demo">Book Free Demo Class →</a>
+            <a class="text-link" href="#courses">View Courses</a>
+          </div>
+
+          <div class="trust-row">
+            <span>⭐ 4.8 Google Rating</span>
+            <span>✓ 14+ Years</span>
+            <span>🎓 25,000+ Alumni</span>
+          </div>
+        </div>
+
+        <div class="demo-card" id="demo">
+          <div class="card-top">
+            <span class="pill">FREE • NO COMMITMENT</span>
+            <h2>Book a Free Demo Class</h2>
+            <p>See the teaching style, syllabus and placement process before you decide.</p>
+          </div>
+
+          <form id="demoForm">
+            <label>Full Name *
+              <input required type="text" name="name" placeholder="Your full name">
+            </label>
+            <label>Mobile Number *
+              <input required type="tel" name="phone" placeholder="10-digit mobile number" pattern="[0-9]{10}">
+            </label>
+            <label>Email Address
+              <input type="email" name="email" placeholder="you@example.com">
+            </label>
+            <label>Course
+              <select name="course">
+                <option>Python Full Stack</option>
+                <option>Java Full Stack</option>
+                <option>Software Testing</option>
+                <option>MERN Full Stack</option>
+                <option>Data Science & Machine Learning</option>
+                <option>Data Analytics</option>
+              </select>
+            </label>
+            <button class="btn btn-primary full" type="submit">Get My Free Demo →</button>
+            <p class="privacy">🔒 Your information stays private.</p>
+          </form>
+          <div id="formMessage" class="form-message"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>25,000+</strong><span>Students Trained</span></div>
+        <div><strong>1,750+</strong><span>Hiring Partners</span></div>
+        <div><strong>96%</strong><span>Placement Rate</span></div>
+        <div><strong>14+</strong><span>Years in Pune</span></div>
+        <div><strong>4.8 ★</strong><span>Google Rating</span></div>
+        <div><strong>4</strong><span>Branches + Online</span></div>
+      </div>
+    </section>
+
+    <section class="section flagship">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">★ NEW FLAGSHIP PROGRAMS</span>
+            <h2>Full-Day Master Programs</h2>
+          </div>
+          <p>6–7 hours daily on campus · Dedicated teachers · Industry mock interviews · Real projects · Complete grooming.</p>
+        </div>
+
+        <div class="flagship-grid">
+          <article class="program-card python">
+            <div class="program-icon">PY</div>
+            <div>
+              <span>PYTHON / DATA</span>
+              <h3>Python & Data Analytics</h3>
+              <p>Python, SQL, analytics, projects and placement preparation.</p>
+              <a href="#courses">View program →</a>
+            </div>
+          </article>
+          <article class="program-card java">
+            <div class="program-icon">JV</div>
+            <div>
+              <span>JAVA</span>
+              <h3>Java Full Stack</h3>
+              <p>Core Java, Spring Boot, databases, APIs and deployable projects.</p>
+              <a href="#courses">View program →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light" id="courses">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="eyebrow">LEARN. BUILD. GET HIRED.</span>
+          <h2>Courses designed around your career</h2>
+          <p>Choose a technology track and build practical skills with projects and interview preparation.</p>
+        </div>
+
+        <div class="filters" role="tablist">
+          <button class="filter active" data-filter="all">All Courses</button>
+          <button class="filter" data-filter="placement">Placement Oriented</button>
+          <button class="filter" data-filter="data">Data Science & Analytics</button>
+          <button class="filter" data-filter="specialized">Specialized</button>
+        </div>
+
+        <div class="course-grid" id="courseGrid">
+          <article class="course-card" data-category="placement">
+            <span class="course-tag">PLACEMENT ORIENTED</span>
+            <h3>Java Full Stack Development</h3>
+            <p>Core Java, Advanced Java, Spring Boot, Hibernate, REST APIs, MySQL and projects.</p>
+            <div class="course-meta">6 months · Classroom + Online</div>
+            <a href="#demo">Explore course →</a>
+          </article>
+
+          <article class="course-card" data-category="placement">
+            <span class="course-tag">PLACEMENT ORIENTED</span>
+            <h3>Python Full Stack Development</h3>
+            <p>Python, Django/Flask, databases, REST APIs and placement-focused capstone projects.</p>
+            <div class="course-meta">6 months · Classroom + Online</div>
+            <a href="#demo">Explore course →</a>
+          </article>
+
+          <article class="course-card" data-category="placement">
+            <span class="course-tag">PLACEMENT ORIENTED</span>
+            <h3>Software Testing</h3>
+            <p>Manual testing, Selenium automation, TestNG, Jira, API testing and QA workflows.</p>
+            <div class="course-meta">4 months · Classroom + Online</div>
+            <a href="#demo">Explore course →</a>
+          </article>
+
+          <article class="course-card" data-category="specialized">
+            <span class="course-tag">SPECIALIZED</span>
+            <h3>MERN / MEAN Full Stack</h3>
+            <p>React or Angular, Node.js, Express, MongoDB, REST APIs and deployment pipelines.</p>
+            <div class="course-meta">5 months · Classroom + Online</div>
+            <a href="#demo">Explore course →</a>
+          </article>
+
+          <article class="course-card" data-category="data">
+            <span class="course-tag">DATA SCIENCE</span>
+            <h3>Data Science & Machine Learning</h3>
+            <p>Python, statistics, machine learning, Pandas, visualization and applied projects.</p>
+            <div class="course-meta">6 months · Classroom + Online</div>
+            <a href="#demo">Explore course →</a>
+          </article>
+
+          <article class="course-card" data-category="data">
+            <span class="course-tag">DATA ANALYTICS</span>
+            <h3>Data Analytics</h3>
+            <p>Excel, SQL, Python basics, Power BI dashboards and reporting workflows.</p>
+            <div class="course-meta">4 months · Classroom + Online</div>
+            <a href="#demo">Explore course →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="success">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">WHY KIRAN ACADEMY</span>
+            <h2>Training built to get you hired — not just certified</h2>
+          </div>
+          <p>Practical learning, industry exposure and support throughout your job search.</p>
+        </div>
+
+        <div class="benefits">
+          <article><span>01</span><h3>Working Industry Trainers</h3><p>Learn from professionals who understand current tools, codebases and interview expectations.</p></article>
+          <article><span>02</span><h3>Project-Based Learning</h3><p>Build deployable projects that demonstrate what you can actually do.</p></article>
+          <article><span>03</span><h3>Placement Support</h3><p>Mock interviews, resume preparation and company opportunities.</p></article>
+          <article><span>04</span><h3>Beyond Placement</h3><p>Continue learning with career guidance, salary negotiation and growth support.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section placement-section" id="placements">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="eyebrow">PLACEMENT RECORD</span>
+          <h2>Real students. Real placements.</h2>
+          <p>Recent examples of roles students have moved into after training.</p>
+        </div>
+
+        <div class="placement-grid">
+          <article class="placement-card"><div class="avatar">CP</div><div><b>Chaitrali Pankaj Kad</b><span>Software Tester</span><small>Sep 2026</small></div><i>✓</i></article>
+          <article class="placement-card"><div class="avatar">MG</div><div><b>Manish Gopal Piwal</b><span>Software Tester Intern</span><small>Sep 2026</small></div><i>✓</i></article>
+          <article class="placement-card"><div class="avatar">RG</div><div><b>Rutuja Rajendra Gamare</b><span>Full Stack Developer Intern</span><small>Sep 2026</small></div><i>✓</i></article>
+          <article class="placement-card"><div class="avatar">AS</div><div><b>Amir Shaikh</b><span>AI / ML Engineer</span><small>Sep 2026</small></div><i>✓</i></article>
+          <article class="placement-card"><div class="avatar">RK</div><div><b>Rohit Kakade</b><span>React JS Developer</span><small>Sep 2026</small></div><i>✓</i></article>
+          <article class="placement-card"><div class="avatar">PV</div><div><b>Pawar Vedant Charudatta</b><span>Junior MERN Stack Developer</span><small>Sep 2026</small></div><i>✓</i></article>
+        </div>
+        <div class="center"><a class="btn btn-outline" href="#demo">See Placement Process →</a></div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="jobs">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">🔴 LIVE OPPORTUNITIES</span>
+            <h2>Latest openings from hiring partners</h2>
+          </div>
+          <p>Sample job listings to show the type of opportunities learners can prepare for.</p>
+        </div>
+
+        <div class="jobs-list">
+          <article class="job"><span class="job-type">JAVA</span><div><h3>Java Developer</h3><p>Hinjewadi, Pune</p></div><strong>Up to ₹4.5 LPA</strong><a href="#demo">Apply →</a></article>
+          <article class="job"><span class="job-type">TESTING</span><div><h3>Software Tester</h3><p>Pune</p></div><strong>Up to ₹5.5 LPA</strong><a href="#demo">Apply →</a></article>
+          <article class="job"><span class="job-type">DATA</span><div><h3>Research & Business Analyst Intern</h3><p>Mumbai</p></div><strong>Up to ₹4.4 LPA</strong><a href="#demo">Apply →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="locations">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="eyebrow">OUR LOCATIONS</span>
+          <h2>Train at a branch or learn online</h2>
+          <p>Classroom and live-online learning options.</p>
+        </div>
+
+        <div class="location-grid">
+          <article class="location"><span>📍</span><h3>Karvenagar</h3><p>Park Plaza, above Birla Super Market, Karvenagar, Pune.</p><a href="#demo">Book Demo →</a></article>
+          <article class="location"><span>📍</span><h3>Hadapsar</h3><p>Pune–Solapur Road, Hadapsar Gaon, Pune.</p><a href="#demo">Book Demo →</a></article>
+          <article class="location"><span>📍</span><h3>Chinchwad</h3><p>Chinchwad Station Road, Pimpri-Chinchwad, Pune.</p><a href="#demo">Book Demo →</a></article>
+          <article class="location"><span>📍</span><h3>Nagpur</h3><p>Mankapur Ring Road, Chatrapati Nagar, Nagpur.</p><a href="#demo">Book Demo →</a></article>
+          <article class="location online"><span>🖥️</span><h3>Live Online</h3><p>Join interactive live classes from anywhere in India.</p><a href="#demo">Enquire Online →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="container cta-box">
+        <div>
+          <span class="eyebrow">READY TO START?</span>
+          <h2>Take the first step toward your IT career.</h2>
+          <p>Book a free demo and understand the course, trainer and placement process.</p>
+        </div>
+        <a class="btn btn-light" href="#demo">Book Free Demo →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="logo footer-logo" href="#top"><span class="logo-mark">K</span><span><b>Kiran</b><small>ACADEMY</small></span></a>
+        <p>Practical IT training, projects and career support for aspiring software professionals.</p>
+      </div>
+      <div><h4>Courses</h4><a href="#courses">Java Full Stack</a><a href="#courses">Python Full Stack</a><a href="#courses">Testing</a><a href="#courses">Data Science</a></div>
+      <div><h4>Company</h4><a href="#placements">Placements</a><a href="#jobs">Jobs</a><a href="#success">Success Stories</a><a href="#locations">Locations</a></div>
+      <div><h4>Contact</h4><a href="tel:+918888809416">+91 88888 09416</a><a href="mailto:hello@example.com">Email us</a><a href="#demo">Book Free Demo</a></div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> Kiran Academy. Demo website created for educational/project purposes.</div>
+  </footer>
+
+  <button class="back-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
